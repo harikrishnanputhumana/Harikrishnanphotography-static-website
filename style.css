@@ -1,22 +1,25 @@
 .bgimg{
-    background-image: url('images/photo3.jpg');
+    background-image: url('images/bgimage.jpg');
     background-size: 100% 100%;
     background-attachment: fixed;
     width: 100%;
     height: 660px;
+    background-size: cover;
+    position: relative;
 }
 
 .headerset{
-    padding-top: 250px;
+    padding-top: 220px;
     box-sizing: border-box;
 }
 .headerset h2{
-
-    font-size: 42px;    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;    
 }
 .headerset h1{
-    font-size: 62px;
+    font-size: 40px;
     font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /************************ourservices***************************/
