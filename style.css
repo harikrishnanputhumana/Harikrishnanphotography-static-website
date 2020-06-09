@@ -7,6 +7,9 @@
     background-size: cover;
     position: relative;
 }
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
 
 .headerset{
     padding-top: 220px;
@@ -19,8 +22,16 @@
 .headerset h1{
     font-size: 40px;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
+
 }
+/**************************about*******************************/
+
+#about{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5vh;
+}
+
 
 /************************ourservices***************************/
 
