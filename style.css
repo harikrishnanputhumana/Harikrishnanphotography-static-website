@@ -10,9 +10,14 @@
 h1 , p{
     font-family: 'Times New Roman', Times, serif;
 }
+.logo{
+    height: 12ex;
+  
+}
+
 
 .headerset{
-    padding-top: 220px;
+    padding-top: 255px;
     box-sizing: border-box;
 
     position: relative;
@@ -38,6 +43,6 @@ h1 , p{
 #about{
     font-weight: bold;
     text-align: center;
-    padding-top: 5vh;
+    
 }
 
