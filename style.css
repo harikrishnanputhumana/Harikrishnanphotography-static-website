@@ -22,7 +22,7 @@ h1 , p{
 
     position: relative;
   animation-name: mymove;
-  animation-duration: 5s;
+  animation-duration: 7s;
 }
 @keyframes  mymove {
     from {top: -250px;}
