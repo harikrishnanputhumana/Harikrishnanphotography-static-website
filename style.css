@@ -44,5 +44,11 @@ h1 , p{
     font-weight: bold;
     text-align: center;
     padding-top: 2ex;
+    padding-top: 6ex;
 }
 
+/**************************gallery*******************************/
+#gallery{
+    padding-top: 15ex;
+    
+}
