@@ -107,7 +107,7 @@ h1 , p{
     margin-right: 0.25rem;
     margin-bottom: 0.25rem;
   }
-  
+  /*
   .rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
     -webkit-transform: rotate(360deg);
         -ms-transform: rotate(360deg);
