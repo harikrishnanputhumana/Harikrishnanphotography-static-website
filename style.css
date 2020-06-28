@@ -1,4 +1,4 @@
-.bgimg{
+body{
     background-image: url('images/bgimage.jpg');
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -7,6 +7,17 @@
     background-size: cover;
     position: relative;
 }
+
+/*
+.bgimg{
+    background-image: url('images/bgimage.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 660px;
+    background-size: cover;
+    position: relative;
+}*/
 h1 , p{
     font-family: 'Times New Roman', Times, serif;
 }
@@ -43,19 +54,27 @@ h1 , p{
 #about{
     font-weight: bold;
     text-align: center;
-    padding-top: 2ex;
+
     padding-top: 6ex;
+}
+.about{
+
+    margin-top: 22ex;
+    background-color: #000000ba!important;
 }
 
 /**************************gallery*******************************/
 #gallery{
     padding-top: 15ex;
+    background-color:#524747a3!important;
+    padding-bottom: 20ex;
     
 }
 
 /**************************contact*******************************/
 .form{
     font-family: 'Times New Roman', Times, serif;
+    
 }
 .topbtn a{
     color: #afacac;
