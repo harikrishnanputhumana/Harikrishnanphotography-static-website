@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
   </head>
 <body>
    <div id="home" class="bgimg">
-     <nav class="navbar navbar-expand-md bg-dark navbar-dark" style="position: fixed; z-index: 1; width: 100%;" >
+     <nav class="navbar navbar-expand-md bg-dark navbar-dark" >
 
       <div class="container">
         <a href="#index.html"><img class="logo" src="images/logo.png" alt=""></a>
@@ -37,7 +37,7 @@
               <a href="#gallery" class="nav-link text-white">Gallery</a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link text-white">Contact</a>
+              <a href="#contact" class="nav-link text-white">Contact</a>
             </li>
 
 
@@ -52,7 +52,7 @@
       <h2>Welcome to</h2>
       <h1>HARIKRISHNAN PUTHUMANA PHOTOGRAPHY</h1>
       <p>Your personal photographer</p>
-      <button class="btn btn-secondary text-white btn-md">Contact</button>
+     <a href="#contact"><button class="btn btn-secondary text-white btn-md">Contact</button></a> 
 
      </div>
 
@@ -129,7 +129,30 @@
       </section>
 
 
+      <section id="contact" class="bg-dark text-center form text-white pb-2 pt-4">
+        <h1>Contact</h1>
+        <form class="container pt-3 ">
+          <div class="row">
+            <div class="col-12">
+              <input type="text" class="form-control" placeholder="Email">
+            </div>
+            <div class="col-12 pt-3">
+              <input type="text" class="form-control" placeholder="Name">
+            </div>
+            <div class="form-group col-12 pt-4">
+              <textarea class="form-control" placeholder="Comments..." id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+                
+          </div>
+          
+        </form>
+        <button type="button" class="btn btn-secondary">Submit</button>
+        <div class="col-2 topbtn">
+         <a href="#home"><i class='far fa-caret-square-up' style='font-size:36px '></i></a>
 
+        </div>
+
+      </section>
 
 
 
